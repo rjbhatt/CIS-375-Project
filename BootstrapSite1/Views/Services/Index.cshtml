@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "Services";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Testimonials
+                <small>See What Others Have to Say About Us!</small>
+            </h1>
+            <ol class="breadcrumb">
+                <li>
+                    @Html.ActionLink("Home", "Index", "Home")
+                </li>
+                <li class="active">Services</li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col-lg-12">
+            <img src="https://image.ibb.co/m1aqCw/reviews.jpg" class="img-responsive">
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- Service Paragraphs -->
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="page-header">What Our Customers Are Saying</h2>
+            <p>TripGuider strives to exceed customer expectations with its ease of use and 24/7 customer service representatives to attend to any questions or concerns. Learn how people around the US use TripGuider to customize and fit their travel plans. Read real customer testominals below and submit testimonials if we have satisfied or exceeded your travel needs to the right.</p>
+        </div>
+        <div class="col-md-4">
+            <h2 class="page-header">Submit a Testimonial</h2>
+            <textarea rows="4" cols="50">
+            </textarea>
+            <a href="#" class="btn btn-primary">Submit!</a>
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- Service Tabs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Real Customer Testimonials</h2>
+            <ul class="nav nav-tabs" id="myTab">
+                <li class="active">
+                    <a data-toggle="tab" href="#service-one">Amy W.</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#service-two">Ron G.</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#service-three">Mark H.</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#service-four">Zara B.</a>
+                </li>
+                <li>
+                    <a data-toggle="tab" href="#service-five">Jose G.</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div id="service-one" class="tab-pane fade in active">
+                    <i class="fa fa-gear pull-left fa-4x"></i>
+                    <p>“You made it so simple. Booking a flight is so much faster and easier to work with than the old travel website I used. I just choose my destination and when I want to go there, fill out how many people are travelling, and what cabin I want and it takes care of the rest. Thanks, guys!”</p>
+                </div>
+                <div id="service-two" class="tab-pane fade">
+                    <i class="fa fa-gears pull-left fa-4x"></i>
+                    <p>"Very easy to use! Managing my tickets was a breeze once I created an account, and TripGuider found me the best fare for my trip."</p>
+                </div>
+                <div id="service-three" class="tab-pane fade">
+                    <i class="fa fa-magic pull-left fa-4x"></i>
+                    <p>"Fantastic customer service, when I had a technical issue with my account TripGuider representatives were on call with me every step of the way to resolve it quickly. Highly Recommend!"</p>
+                </div>
+                <div id="service-four" class="tab-pane fade">
+                    <i class="fa fa-flask pull-left fa-4x"></i>
+                    <p>"I always use TripGuider for my travel needs, their easy to use interface makes booking tickets a walk in the park!"</p>
+                </div>
+                <div id="service-five" class="tab-pane fade">
+                    <i class="fa fa-flag pull-left fa-4x"></i>
+                    <p>"Needed tickets to Seattle urgently before the holidays, TripGuider found me a great deal on the fly, would recommend them to anyone."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    <!-- Service Images -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Featured Customers</h2>
+        </div>
+        <div class="col-sm-4">
+            <img src="https://image.ibb.co/cV0E7w/Individual_Portrait_People_RGB_1350.jpg" class="img-responsive">
+            <h3>Grace Hopper</h3>
+            <p>"I've been an avid TripGuider customer since the early days they were launched, they've been my preferred travel booking website to this day. I've used them on over 50+ trips and counting, would highly recommend them to anyone looking for an easy to use and honest travel website that can fit anyone's travel needs."</p>
+            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+        </div>
+        <div class="col-sm-4">
+            <img src="https://image.ibb.co/jK70fG/Policy_Advisors_Fellowship.jpg" class="img-responsive">
+            <h3>Linus Torvalds</h3>
+            <p>"I was one of the first Beta testers for TripGuider and came to love it since then, since they went live I've personally used them for all my travel needs and recommended my company to adopt them as our official corporate travel partner. They have a very easy to use interface and a great network of most commonly used airline partners."</p>
+            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+        </div>
+        <div class="col-sm-4">
+            <img src="https://image.ibb.co/hp7SSw/Gulwali_Passarlay_podcast_episode_16.jpg" class="img-responsive">
+            <h3>Edsger Djikstra</h3>
+            <p>"After frustrating experiences on other travel websites from technical issues to misleading fine print clauses I decided to give TripGuider a shot one day, since then they've been my most used travel website. From their helpful customer representatives to their best fare promise they've been exactly what I've been looking for. "</p>
+            <a class="btn btn-link btn-sm pull-right">More <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
