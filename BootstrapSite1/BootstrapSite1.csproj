@@ -161,7 +161,7 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Data\Startup.Auth.cs" />
     <Compile Include="Context\ApplicationDataContext.cs" />
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
@@ -235,12 +235,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Blog\Post.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Other\FullWidth.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\Other\SideBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Other\Faq.cshtml" />
