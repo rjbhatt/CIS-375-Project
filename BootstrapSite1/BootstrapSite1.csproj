@@ -245,6 +245,24 @@
   <ItemGroup>
     <Content Include="Views\Other\Faq.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\something\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Contact\PurchaseTicket_.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Contact\PurchaseTicket__.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Contact\PurchaseTicket___.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Contact\Checkout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Contact\OrderConfirm.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
