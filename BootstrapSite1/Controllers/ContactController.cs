@@ -8,5 +8,9 @@ namespace BootstrapSite1.Controllers
         {
             return View();
         }
-	}
+          public ActionResult ViewFlights()
+          {
+               return View();
+          }
+     }
 }

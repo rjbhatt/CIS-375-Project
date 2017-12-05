@@ -1,69 +1,84 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+     ViewBag.Title = "Contact";
 }
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <h1 class="page-header">Search Flights <small>Select Airport To View Information</small></h1>
-            <ol class="breadcrumb">
-                <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                <li class="active">Contact</li>
-            </ol>
-        </div>
-        <div class="col-lg-12">
-            <iframe width="100%" scrolling="no" height="400px" frameborder="0" src="http://embed.flightaware.com/commercial/integrated/web/delay_map.rvt" marginwidth="0" marginheight="0"></iframe>
-        </div>
-    </div><!-- /.row -->
-    <form method="post" action="//submit.form" onSubmit="return validateForm();">
-<div style="width: 400px;">
-</div>
-<div style="padding-bottom: 18px;font-size : 21px;">Flight Search</div>
-<div style="display: flex; padding-bottom: 18px;width : 450px;">
-<div style=" margin-left : 0; margin-right : 1%; width : 49%;">First name<span style="color: red;"> *</span><br/>
-<input type="text" id="data_2" name="data_2" style="width: 100%;" class="form-control"/>
-</div>
-<div style=" margin-left : 1%; margin-right : 0; width : 49%;">Last name<span style="color: red;"> *</span><br/>
-<input type="text" id="data_3" name="data_3" style="width: 100%;" class="form-control"/>
-</div>
-</div><div style="padding-bottom: 18px;">Phone<span style="color: red;"> *</span><br/>
-<input type="text" id="data_4" name="data_4" style="width : 450px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Email<span style="color: red;"> *</span><br/>
-<input type="text" id="data_5" name="data_5" style="width : 450px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Arrival date<span style="color: red;"> *</span><br/>
-<input type="text" id="data_6" name="data_6" style="width : 250px;" class="form-control"/>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">new Pikaday({ field: document.getElementById('data_6') });</script>
-<div style="padding-bottom: 18px;">Departure date<span style="color: red;"> *</span><br/>
-<input type="text" id="data_7" name="data_7" style="width : 250px;" class="form-control"/>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">new Pikaday({ field: document.getElementById('data_7') });</script>
-<div style="padding-bottom: 18px;">Number of Adults<span style="color: red;"> *</span><br/>
-<input type="number" id="data_8" name="data_8" style="width : 250px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Number of Children<br/>
-<input type="number" id="data_9" name="data_9" style="width : 250px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Cabin Tier<br/>
-    <form>
-        <input type="radio" name="gender" value="male" checked> Economy <br>
-        <input type="radio" name="gender" value="female"> Business <br>
-        <input type="radio" name="gender" value="other"> First Class
-    </form>
-</div>
-<div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
-<div>
-<div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
-<script src="https://www.100forms.com/js/FORMKEY:G2PUB5CRGWQR/SEND:rjbhatt@umich.edu" type="text/javascript"></script>
-</div>
-</form>
+     <div class="row">
+          <div class="col-lg-12">
+               <h1 class="page-header">Search Flights <small>Select Airport To View Information</small></h1>
+               <ol class="breadcrumb">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="active">Contact</li>
+               </ol>
+          </div>
+          <div class="col-lg-12">
+               <iframe width="100%" scrolling="no" height="400px" frameborder="0" src="http://embed.flightaware.com/commercial/integrated/web/delay_map.rvt" marginwidth="0" marginheight="0"></iframe>
+          </div>
+     </div><!-- /.row -->
+     <form method="post" action="//submit.form" onSubmit="return validateForm();">
+          <div style="width: 400px;">
+          </div>
+          <div style="padding-bottom: 18px;font-size : 21px;">Flight Search</div>
+          <div style="display: flex; padding-bottom: 18px;width : 450px;">
+               <div style=" margin-left
+                    0; margin-right
+                    1%; width
+                    49%;">
+                    First name<span style="color: red;"> *</span><br />
+                    <input type="text" id="data_2" name="data_2" style="width: 100%;" class="form-control" />
+               </div>
+               <div style=" margin-left
+                    1%; margin-right
+                    0; width
+                    49%;">
+                    Last name<span style="color: red;"> *</span><br />
+                    <input type="text" id="data_3" name="data_3" style="width: 100%;" class="form-control" />
+               </div>
+          </div><div style="padding-bottom: 18px;">
+               Phone<span style="color: red;"> *</span><br />
+               <input type="text" id="data_4" name="data_4" style="width : 450px;" class="form-control" />
+          </div>
+          <div style="padding-bottom: 18px;">
+               Email<span style="color: red;"> *</span><br />
+               <input type="text" id="data_5" name="data_5" style="width : 450px;" class="form-control" />
+          </div>
+          <div style="padding-bottom: 18px;">
+               Arrival date<span style="color: red;"> *</span><br />
+               <input type="text" id="data_6" name="data_6" style="width : 250px;" class="form-control" />
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+          <script type="text/javascript">new Pikaday({ field: document.getElementById('data_6') });</script>
+          <div style="padding-bottom: 18px;">
+               Departure date<span style="color: red;"> *</span><br />
+               <input type="text" id="data_7" name="data_7" style="width : 250px;" class="form-control" />
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+          <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+          <script type="text/javascript">new Pikaday({ field: document.getElementById('data_7') });</script>
+          <div style="padding-bottom: 18px;">
+               Number of Adults<span style="color: red;"> *</span><br />
+               <input type="number" id="data_8" name="data_8" style="width : 250px;" class="form-control" />
+          </div>
+          <div style="padding-bottom: 18px;">
+               Number of Children<br />
+               <input type="number" id="data_9" name="data_9" style="width : 250px;" class="form-control" />
+          </div>
+          <div style="padding-bottom: 18px;">
+               Cabin Tier<br />
+               <form>
+                    <input type="radio" name="gender" value="male" checked> Economy <br>
+                    <input type="radio" name="gender" value="female"> Business <br>
+                    <input type="radio" name="gender" value="other"> First Class
+               </form>
+          </div>
+          <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" onclick="window.location.href = '@Url.Action("ViewFlights", "Contact")'" type="submit" /></div>
+          <div>
+               <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+               <script src="https://www.100forms.com/js/FORMKEY:G2PUB5CRGWQR/SEND:rjbhatt@umich.edu" type="text/javascript"></script>
+          </div>
+     </form>
 
-<script type="text/javascript">
+     <script type="text/javascript">
 function validateForm() {
 if (isEmpty(document.getElementById('data_2').value.trim())) {
 alert('First name is required!');
@@ -104,5 +119,5 @@ function validateEmail(email) {
 var re = /^([\w-]+(?:\.[\w-]+)*)((?:[\w-]+\.)*\w[\w-]{0,66}).([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
 return isEmpty(email) || re.test(email);
 }
-</script><!-- /.row -->
+     </script><!-- /.row -->
 </div>

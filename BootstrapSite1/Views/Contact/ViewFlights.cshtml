@@ -1,0 +1,69 @@
+﻿@{
+     ViewBag.Title = "View Flights";
+}
+
+
+
+<div class="container">
+     <div class="row">
+          <div class="col-lg-12">
+               <h1 class="page-header">
+                    Flight Listings
+                    <small></small>
+               </h1>
+               <ol class="breadcrumb">
+                    <li>
+                         @Html.ActionLink("Home", "Index", "Home")
+                    </li>
+                    <li class="active">Flights</li>
+               </ol>
+          </div>
+     </div>
+
+     <h2>Available <span>Flights</h2>
+
+     <table class="responstable">
+
+          <tr>
+               <th>Airline Carrier</th>
+               <th data-th="Driver details"><span>First name</span></th>
+               <th>Surname</th>
+               <th>Date of birth</th>
+               <th>Relationship</th>
+          </tr>
+
+          <tr>
+               <td><input type="radio" /></td>
+               <td>Steve</td>
+               <td>Foo</td>
+               <td>01/01/1978</td>
+               <td>Policyholder</td>
+          </tr>
+
+          <tr>
+               <td><input type="radio" /></td>
+               <td>Steffie</td>
+               <td>Foo</td>
+               <td>01/01/1978</td>
+               <td>Spouse</td>
+          </tr>
+
+          <tr>
+               <td><input type="radio" /></td>
+               <td>Stan</td>
+               <td>Foo</td>
+               <td>01/01/1994</td>
+               <td>Son</td>
+          </tr>
+
+          <tr>
+               <td><input type="radio" /></td>
+               <td>Stella</td>
+               <td>Foo</td>
+               <td>01/01/1992</td>
+               <td>Daughter</td>
+          </tr>
+
+     </table>
+
+
