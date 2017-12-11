@@ -163,3 +163,4 @@ C:\Users\Luke\Documents\GitHub\CIS-375-Project\BootstrapSite1\bin\Microsoft.Owin
 C:\Users\Luke\Documents\GitHub\CIS-375-Project\BootstrapSite1\obj\Debug\BootstrapSite1.csprojResolveAssemblyReference.cache
 C:\Users\Luke\Documents\GitHub\CIS-375-Project\BootstrapSite1\obj\Debug\BootstrapSite1.dll
 C:\Users\Luke\Documents\GitHub\CIS-375-Project\BootstrapSite1\obj\Debug\BootstrapSite1.pdb
+C:\Users\alexr\OneDrive\Documents\CIS-375-Project-master\CIS-375-Project-master\CIS-375-Project\CIS-375-Project\BootstrapSite1\obj\Debug\BootstrapSite1.csproj.CoreCompileInputs.cache
